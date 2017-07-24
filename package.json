@@ -1,0 +1,35 @@
+{
+  "name": "ngx-tabby",
+  "version": "1.0.0",
+  "description": "Kittens, kittens, kittens. ngx-tabby is a gentle angular easter egg that will leave you warm and cozy on the inside.",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "build": "tsc",
+    "test": "mocha --reporter spec tests/*.js"
+  },
+  "author": "D.L.Smith",
+  "keywords": [
+    "kittens",
+    "felines",
+    "cats",
+    "angular",
+    "angular 2",
+    "ngx",
+    "javascript",
+    "typescript",
+    "easter egg"
+  ],
+  "devDependencies": {
+    "@types/node": "8.0.16",
+    "chai": "3.5.0",
+    "concurrently": "3.5.0",
+    "jsdom": "9.9.1",
+    "lite-server": "2.2.2",
+    "mocha": "3.2.0",
+    "mocha-jsdom": "1.1.0",
+    "requirejs": "2.3.4",
+    "systemjs": "0.20.16",
+    "tsc": "1.20150623.0",
+    "typescript": "2.4.2"
+  }
+}

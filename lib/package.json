@@ -1,0 +1,23 @@
+{
+  "name": "ngx-tabby",
+  "version": "1.0.0",
+  "description": "Kittens, kittens, kittens. ngx-tabby is a gentle angular easter egg that will leave you warm and cozy on the inside.",
+  "author": "D.L.Smith",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dqsmith/ngx-tabby.git"
+  },
+  "keywords": [
+    "kittens",
+    "felines",
+    "cats",
+    "angular",
+    "angular 2",
+    "ngx",
+    "javascript",
+    "typescript",
+    "easter egg"
+  ],
+  "dependencies": {}
+}
