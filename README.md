@@ -2,7 +2,7 @@
 
 ngx-tabby is a gentle angular easter egg that will leave you warm and cozy on the inside.
 
-[Demo](https://dqsmith.github.io/ngx-tabby/demo/)
+[Demo](https://dqsmith.github.io/ngx-tabby/docs/demo/)
 
 ## Getting Started
 
