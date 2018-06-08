@@ -25,8 +25,6 @@ export class TabbyService {
 
         window.onkeydown = (event) => {
             if (event.keyCode == 9) {
-                event.preventDefault();
-
                 this.keys.tab = true;
                 this.keys.b = false;
             } else if (event.keyCode == 66) {
@@ -42,6 +40,14 @@ export class TabbyService {
                 this.keys.b = false;
             }
         };
+
+        // Using key to determine if tab was pressed to avoid issues with
+        // attempting to capture tab-press with normal tab-press functions
+        window.onkeyup = (event) => {
+            if (event.keyCode == 9) {
+                this.keys.tab = false;
+            } 
+        };        
     }
 
     private getImage(): any {
